@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>financing</title>
     <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -34,7 +35,7 @@
             <div class="input-group">
                 <input type="text" class="form-control" id="principal" oninput="checkMoney(this)" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">元</span>
             </div>
         </div>
@@ -43,7 +44,7 @@
             <div class="input-group">
                 <input type="text" class="form-control" id="days" oninput="checkDay(this)" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">天</span>
             </div>
         </div>
@@ -52,7 +53,7 @@
             <div class="input-group">
                 <input type="text" class="form-control" id="waste_days" oninput="checkMoney(this)" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">天</span>
             </div>
         </div>
@@ -61,7 +62,7 @@
             <div class="input-group">
                 <input type="text" class="form-control" id="rate" oninput="checkMoney(this)" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">%</span>
             </div>
         </div>
@@ -70,7 +71,7 @@
             <div class="input-group">
                 <input type="text" class="form-control" id="income" oninput="checkMoney(this)" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">元</span>
             </div>
         </div>
@@ -84,14 +85,14 @@
             <div class="input-group">
                 <input type="text" class="form-control" id="interest" readonly="readonly" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">元</span>
             </div>
             <button type="button" class="col-2 btn btn-primary" onclick="calculateInterestWaste()">包括浪费时间</button>
             <div class="input-group">
                 <input type="text" class="form-control" id="interest_waste" readonly="readonly" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">元</span>
             </div>
         </div>
@@ -100,14 +101,14 @@
             <div class="input-group">
                 <input type="text" class="form-control" id="rate_actual" readonly="readonly" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">%</span>
             </div>
             <button type="button" class="col-2 btn btn-primary" onclick="calculateRateActualWaste()">包括浪费时间</button>
             <div class="input-group">
                 <input type="text" class="form-control" id="rate_actual_waste" readonly="readonly" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">%</span>
             </div>
         </div>
@@ -116,14 +117,14 @@
             <div class="input-group">
                 <input type="text" class="form-control" id="loss" readonly="readonly" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">元</span>
             </div>
             <button type="button" class="col-2 btn btn-primary" onclick="calculateLossWaste()">包括浪费时间</button>
             <div class="input-group">
                 <input type="text" class="form-control" id="loss_waste" readonly="readonly" />
             </div>
-            <div class="input-group-append">
+            <div class="input-group-append d-inline-block w-45px">
                 <span class="input-group-text">元</span>
             </div>
         </div>
