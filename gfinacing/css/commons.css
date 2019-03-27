@@ -1,0 +1,15 @@
+main {
+    height: calc(99% - 3rem);
+}
+
+main>iframe {
+    padding-top: 60px;
+}
+
+.footer {
+    background-color: #f5f5f5;
+}
+
+.w-45px {
+    width: 45px;
+}
